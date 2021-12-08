@@ -1,0 +1,21 @@
+<h1 class="text-center p-3">
+    <?= $params['city']['name'] ?> 
+</h1>
+
+<h2 class="p-2">
+    Népesség:
+    
+</h2>
+<p><?= $params['city']['population'] ?> fő </p>
+
+<h2 class="p-2">
+    Tartomány:
+    
+</h2>
+<p><?= $params['city']['district'] ?> </p>
+
+<h2 class="p-2">
+    Főváros:
+    
+</h2>
+<p><?= $params['city']['isCapital'] === 1 ? "Igen" : "Nem" ?></p>
